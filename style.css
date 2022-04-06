@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #130f40;
+}
+.mid{
+    width: 800px;
+    margin: 200px auto;
+}
+.pricing-table-item{
+    width: 33%;
+    float: left;
+   
+}
+.p-heading h1{
+    color: white;
+}
+.p-heading h2{
+    color: white;
+    font-size: 50PX;
+    margin-top: -20px;
+}
+.p-content ul li{
+    color: #ffffff;
+    list-style: none;
+    padding: 10px 0px ;
+    transition: .2s;
+}
+.p-heading{
+    background-color: #38ada9;
+    margin-right: 20px;
+    padding: 2px 9px;
+    border-radius: 0px 10px 0px 30px;
+}
+.p-content{
+    background-color: #e55039;
+    padding-top: 1px;
+    margin-right: 19px;
+    padding-bottom: 50px;
+    border-radius: 0px 0px 20px 20px;
+    
+    
+
+}.p-heading:nth-child(3) {
+    margin-right: 0;
+}
+.p-heading span{
+    font-size: 15px;
+}
+.p-content span{
+    margin-right: 25px;
+    margin-left: -20px;
+    font-size: 25px;
+}
+.ctn-btn{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+   margin-top: 20px;
+   position: absolute;
+   top: 375px;
+   left: 36px;
+}
+.p-content ul{
+    position: relative;
+   
+}
+.p-content ul li:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 30px;
+}
+.p-content ul a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
